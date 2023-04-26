@@ -33,13 +33,13 @@ export function search() {
 
         searchWrapper.classList.remove("searching");
         searchResultModal.classList.add("active");
-        searchResultModal.innerHTML = ""; // remove old results
+        searchResultModal.innerHTML = ""; // -- removE Old ResuLts
 
         searchResultModal.innerHTML = `
           <p class="label">Results for</p>
           
           <h1 class="heading">${searchField.value}</h1>
-          
+           
           <div class="movie-list">
             <div class="grid-list"></div>
           </div>
