@@ -100,9 +100,10 @@ a,
 img,
 span,
 iframe,
-button { display: block; }
+button { display: block;}
 
 a {
+  /* color: aqua; */
   color: inherit;
   text-decoration: none;
 }
@@ -111,10 +112,11 @@ img { height: auto; }
 
 input,
 button {
-  background: none;
+  background-color: none;
   border: none;
   font: inherit;
   color: inherit;
+  /* color: white; */
 }
 
 input { width: 100%; }
