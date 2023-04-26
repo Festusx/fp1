@@ -20,7 +20,9 @@
    * COLORS
    */
 
-  --background: rgb(0, 0, 0);
+  --background:
+  #222729;
+   /* rgb(0, 0, 0); */
   --banner-background: rgb(186, 24, 24);
   --white-alpha-20: hsla(0, 0%, 100%, 0.2);
   --on-background: rgb(188, 9, 9);
