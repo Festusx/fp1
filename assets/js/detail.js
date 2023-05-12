@@ -43,7 +43,7 @@ const getDirectors = function (crewList) {
   return directorList.join(", ");
 }
 
-// returns only trailers and teasers as array
+// this returns only trailers and teasers as arrays
 const filterVideos = function (videoList) {
   return videoList.filter(({ type, site }) => (type === "Trailer" || type === "Teaser") && site === "YouTube");
 }

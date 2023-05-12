@@ -646,9 +646,9 @@ body {
 
 
 
-/*
- Movie-List
- */
+
+      /* Movie-List */
+
 
 .movie-list { padding-block-start: 32px; }
 
@@ -785,9 +785,9 @@ body {
 \*\\\\\\*/
 
 
-/**
- * responsive for larger than 575px screen
- */
+
+  /* resolution for screens larger than 575px screen */
+ 
 
 @media (min-width: 575px) {
 
@@ -817,7 +817,7 @@ body {
 
 
 /*
-  responsive for larger than 768px screen
+  resolution for screens larger than 768px screen
  */
 
 @media (min-width: 768px) {
@@ -893,7 +893,7 @@ body {
 
 
 /*
-  responsive for larger than 1200px screen
+   resolution for screens larger than 1200px screen
  */
 
 @media (min-width: 1200px) {
